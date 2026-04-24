@@ -1,8 +1,8 @@
 export const site = {
   name: "Leonardo's",
   fullName: "Leonardo's Italian Deli & Catering",
-  tagline: "A family table, since 1986.",
-  since: "1986",
+  tagline: "A family table, since 1924.",
+  since: "1924",
   address: {
     line1: '14 N. Main Street',
     line2: 'New City, NY 10956',

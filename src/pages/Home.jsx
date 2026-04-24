@@ -248,7 +248,7 @@ function StorySplit() {
 
       <div className="mt-20 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
         {[
-          { n: '38', label: 'Years on Main Street' },
+          { n: '100+', label: 'Years on Main Street' },
           { n: '1,200+', label: 'Events catered' },
           { n: '42', label: 'Imported cheeses' },
           { n: '7:30a', label: 'Ovens on, every day' },

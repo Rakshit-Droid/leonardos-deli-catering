@@ -40,24 +40,15 @@ export default function Nav() {
           <Link
             to="/"
             aria-label="Leonardo's Italian Deli & Catering — home"
-            className="group flex items-center gap-3 rounded-full bg-ivory-100/85 py-1.5 pl-2 pr-4 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
+            className="group flex items-center gap-3 rounded-full bg-ivory-100/90 py-1.5 pl-2 pr-4 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-espresso-800 p-1.5 transition-transform duration-500 ease-out-expo group-hover:rotate-[-6deg]">
-              <img
-                src={logos.primary}
-                alt=""
-                className="h-full w-full object-contain invert"
-                aria-hidden="true"
-              />
-            </span>
-            <span className="sr-only">Leonardo's Italian Deli & Catering</span>
-            <span className="hidden md:flex md:items-baseline md:gap-3">
-              <span className="font-display text-[15px] font-medium tracking-tight text-espresso-800">
-                Leonardo's
-              </span>
-              <span className="border-l border-espresso-800/15 pl-3 text-xs eyebrow text-espresso-400/70">
-                since {site.since}
-              </span>
+            <img
+              src={logos.primary}
+              alt="Leonardo's Italian Deli & Catering"
+              className="h-11 w-auto object-contain transition-transform duration-500 ease-out-expo group-hover:scale-[1.04] md:h-12"
+            />
+            <span className="hidden md:inline border-l border-espresso-800/15 pl-3 text-xs eyebrow text-espresso-400/80">
+              New City, NY
             </span>
           </Link>
 

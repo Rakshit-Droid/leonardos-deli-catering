@@ -88,21 +88,21 @@ function OpeningStatement() {
 function ThreeGenerations() {
   const generations = [
     {
-      years: '1986 — 2001',
+      years: '1924 — 1968',
       name: 'Giuseppe Leonardo',
       role: 'Founder, First Slicer',
       body: 'Giuseppe bought a 14-foot storefront and a Berkel slicer. First day\'s sales: eight prosciutto sandwiches, four Cokes, and a pound of provolone. His rule: never sell anything you haven\'t tasted that morning. Still law.',
       image: 'https://picsum.photos/seed/leo-gen1-portrait-warm/900/1100',
     },
     {
-      years: '2001 — 2019',
+      years: '1968 — 2001',
       name: 'Matteo Leonardo',
       role: 'Second Generation, Head of Kitchen',
       body: 'Matteo trained under his father, then in Parma and Napoli. Came home and added the hot line, the catering trucks, the wedding book. Added espresso. Did not add a freezer.',
       image: 'https://picsum.photos/seed/leo-gen2-kitchen-matteo/900/1100',
     },
     {
-      years: '2019 — now',
+      years: '2001 — now',
       name: 'Lucia Leonardo',
       role: 'Third Generation, Catering Director',
       body: 'Lucia runs catering — 1,200+ events and counting. Built the online ordering, the partnerships, the out-of-town delivery. Still pulls mozzarella on Saturdays. Still argues with her father about the gravy.',

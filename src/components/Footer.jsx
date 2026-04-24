@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="relative mt-20 overflow-hidden bg-espresso-900 text-ivory-100">
       <Marquee
         items={[
-          'Family-run since 1986',
+          'Family-run since 1924',
           'Imports from Parma, Naples & Sicily',
           'Catering across the tri-state',
           '14 N. Main, New City',
@@ -23,17 +23,19 @@ export default function Footer() {
 
       <div className="mx-auto grid w-[min(94vw,1180px)] grid-cols-1 gap-14 px-4 py-20 md:grid-cols-12 md:gap-8">
         <div className="md:col-span-5">
-          <img
-            src={logos.primary}
-            alt="Leonardo's Italian Deli & Catering"
-            className="h-14 w-auto invert brightness-0 opacity-90"
-          />
+          <div className="inline-flex items-center rounded-2xl bg-ivory-100 p-3 ring-1 ring-inset ring-white/10 shadow-diffuse">
+            <img
+              src={logos.primary}
+              alt="Leonardo's Italian Deli & Catering"
+              className="h-16 w-auto object-contain md:h-20"
+            />
+          </div>
           <h2 className="mt-8 font-display text-5xl md:text-6xl leading-[0.95] tracking-tighter">
             Come in <span className="font-display-italic text-tomato-400">hungry.</span><br />
             Leave fed.
           </h2>
           <p className="mt-6 max-w-[42ch] text-ivory-100/65 leading-relaxed">
-            We've been feeding New City and the Hudson Valley for nearly four decades.
+            We've been feeding New City and the Hudson Valley for a century.
             Breakfast at 7:30, gravy on by nine, catering trucks loaded by noon.
           </p>
 
