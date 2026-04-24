@@ -40,14 +40,14 @@ export default function Nav() {
           <Link
             to="/"
             aria-label="Leonardo's Italian Deli & Catering — home"
-            className="group flex items-center gap-3 rounded-full bg-ivory-100/90 py-1.5 pl-2 pr-4 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
+            className="group flex flex-col items-center gap-1.5 rounded-[2rem] bg-ivory-100/90 px-5 py-2.5 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
           >
             <img
               src={logos.primary}
               alt="Leonardo's Italian Deli & Catering"
               className="h-[66px] w-auto object-contain transition-transform duration-500 ease-out-expo group-hover:scale-[1.04] md:h-[72px]"
             />
-            <span className="hidden md:inline border-l border-espresso-800/15 pl-3 text-xs eyebrow text-espresso-400/80">
+            <span className="eyebrow text-[10px] leading-none text-espresso-400/80">
               New City, NY
             </span>
           </Link>
