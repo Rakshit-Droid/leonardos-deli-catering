@@ -36,24 +36,21 @@ export default function Nav() {
   return (
     <>
       <header className="pointer-events-none fixed inset-x-0 top-0 z-40">
-        <div className="pointer-events-auto mx-auto mt-4 flex w-[min(94vw,1180px)] items-center justify-between gap-4 px-2 transition-all duration-500 ease-out-expo md:mt-5">
+        <div className="pointer-events-auto mx-auto mt-6 flex w-[min(94vw,1220px)] items-center justify-between gap-5 px-4 transition-all duration-500 ease-out-expo md:mt-8 md:gap-6 md:px-6">
           <Link
             to="/"
             aria-label="Leonardo's Italian Deli & Catering — home"
-            className="group flex flex-col items-center gap-1.5 rounded-[2rem] bg-ivory-100/90 px-5 py-2.5 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
+            className="group flex items-center rounded-full bg-ivory-100/90 px-5 py-2 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
           >
             <img
               src={logos.primary}
               alt="Leonardo's Italian Deli & Catering"
               className="h-[66px] w-auto object-contain transition-transform duration-500 ease-out-expo group-hover:scale-[1.04] md:h-[72px]"
             />
-            <span className="eyebrow text-[10px] leading-none text-espresso-400/80">
-              New City, NY
-            </span>
           </Link>
 
           <nav
-            className={`hidden items-center gap-1 rounded-full py-1.5 pl-2 pr-1.5 ring-1 ring-inset backdrop-blur-xl transition-all duration-500 ease-out-expo md:flex ${
+            className={`hidden items-center gap-1 rounded-full py-2 pl-2.5 pr-2 ring-1 ring-inset backdrop-blur-xl transition-all duration-500 ease-out-expo md:flex ${
               scrolled
                 ? 'bg-ivory-100/90 ring-espresso-800/10 shadow-diffuse'
                 : 'bg-ivory-100/60 ring-espresso-800/10'
@@ -65,7 +62,7 @@ export default function Nav() {
                 to={n.to}
                 end={n.to === '/'}
                 className={({ isActive }) =>
-                  `relative rounded-full px-4 py-1.5 text-[14px] font-medium tracking-tight transition-all duration-500 ease-out-expo ${
+                  `relative rounded-full px-5 py-2 text-[14px] font-medium tracking-tight transition-all duration-500 ease-out-expo ${
                     isActive
                       ? 'bg-espresso-800 text-ivory-100'
                       : 'text-espresso-700 hover:text-espresso-900'
@@ -77,10 +74,10 @@ export default function Nav() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2.5">
             <a
               href={`tel:${site.phone.deli.replace(/\D/g, '')}`}
-              className="hidden md:inline-flex items-center gap-2 rounded-full bg-ivory-100/80 px-3 py-2 text-[13px] font-medium text-espresso-800 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
+              className="hidden md:inline-flex items-center gap-2 rounded-full bg-ivory-100/80 px-4 py-2.5 text-[13px] font-medium text-espresso-800 ring-1 ring-inset ring-espresso-800/10 backdrop-blur-xl transition-all duration-500 ease-out-expo hover:bg-ivory-50"
             >
               <Phone weight="regular" className="h-4 w-4" />
               {site.phone.deli}
