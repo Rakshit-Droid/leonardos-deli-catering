@@ -23,11 +23,11 @@ export default function Footer() {
 
       <div className="mx-auto grid w-[min(94vw,1180px)] grid-cols-1 gap-14 px-4 py-20 md:grid-cols-12 md:gap-8">
         <div className="md:col-span-5">
-          <div className="inline-flex items-center rounded-2xl bg-ivory-100 p-3 ring-1 ring-inset ring-white/10 shadow-diffuse">
+          <div className="inline-flex items-center rounded-2xl bg-ivory-100 p-4 ring-1 ring-inset ring-white/10 shadow-diffuse md:p-5">
             <img
               src={logos.primary}
               alt="Leonardo's Italian Deli & Catering"
-              className="h-16 w-auto object-contain md:h-20"
+              className="h-32 w-auto object-contain md:h-40"
             />
           </div>
           <h2 className="mt-8 font-display text-5xl md:text-6xl leading-[0.95] tracking-tighter">

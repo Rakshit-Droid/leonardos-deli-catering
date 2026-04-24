@@ -45,7 +45,7 @@ export default function Nav() {
             <img
               src={logos.primary}
               alt="Leonardo's Italian Deli & Catering"
-              className="h-11 w-auto object-contain transition-transform duration-500 ease-out-expo group-hover:scale-[1.04] md:h-12"
+              className="h-[66px] w-auto object-contain transition-transform duration-500 ease-out-expo group-hover:scale-[1.04] md:h-[72px]"
             />
             <span className="hidden md:inline border-l border-espresso-800/15 pl-3 text-xs eyebrow text-espresso-400/80">
               New City, NY
